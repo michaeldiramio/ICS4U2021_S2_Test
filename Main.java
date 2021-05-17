@@ -1,9 +1,29 @@
+import java.util.ArrayList;
+
 public class Main {
   
   public static void main(String[] args) {
+
     
-    System.out.println("Kaiden Gwynne");
+    ArrayList<Animal> animals = new ArrayList<>();
+
+    // add animals here
+    animals.add(new Dog());
+    animals.add(new Worm());
+    animals.add(new Bird());
+    animals.add(new axolotl());
     
+
+    // print em all
+   /* for(int i = 0; i < animals.size(); i++) {
+      animals.get(i).makeNoise();
+    }*/
+
+    for(Animal a : animals) {
+      a.makeNoise();
+    }
+
+
   }
 
 }
