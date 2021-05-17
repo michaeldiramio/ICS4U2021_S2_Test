@@ -10,6 +10,8 @@ public class Main {
     // add animals here
     animals.add(new Dog());
     animals.add(new Worm());
+    animals.add(new Bird());
+    
 
     // print em all
    /* for(int i = 0; i < animals.size(); i++) {
