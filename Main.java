@@ -9,6 +9,7 @@ public class Main {
 
     // add animals here
     animals.add(new Dog());
+    animals.add(new Monkey());
 
     System.out.println("BLAH");
 
