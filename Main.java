@@ -9,11 +9,8 @@ public class Main {
 
     // add animals here
     animals.add(new Dog());
-
+    animals.add(new Lion());
     animals.add(new Cow());
-
-    System.out.println("BLAH");
-
     animals.add(new Worm());
 
 
