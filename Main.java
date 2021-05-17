@@ -20,7 +20,7 @@ public class Main {
     animals.add(new Cow());
     animals.add(new Worm());
     animals.add(new Bird());
-    
+    animals.add(new VenezuelanPoodleMoth());
 
 
     // print em all
