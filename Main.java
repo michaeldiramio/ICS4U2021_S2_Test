@@ -10,8 +10,6 @@ public class Main {
     // add animals here
     animals.add(new Dog());
 
-    System.out.println("BLAH");
-
     // print em all
    /* for(int i = 0; i < animals.size(); i++) {
       animals.get(i).makeNoise();
