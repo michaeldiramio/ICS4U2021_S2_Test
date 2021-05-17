@@ -12,6 +12,8 @@ public class Main {
     animals.add(new Lion());
     animals.add(new Cow());
     animals.add(new Worm());
+    animals.add(new Bird());
+    
 
 
     // print em all
