@@ -4,17 +4,14 @@ public class Main {
   
   public static void main(String[] args) {
 
-    
     ArrayList<Animal> animals = new ArrayList<>();
 
     // add animals here
-    animals.add(new Dog());
-    animals.add(new Monkey());
-
-    animals.add(new Pig());
-
     System.out.println("BLAH");
 
+    animals.add(new Dog());
+    animals.add(new Monkey());
+    animals.add(new Pig());
     animals.add(new axolotl());
     animals.add(new Lion());
     animals.add(new Cow());

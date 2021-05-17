@@ -1,4 +1,4 @@
-public class axolotl extends Animal{
+public class Axolotl extends Animal{
   
   public void makeNoise(){
 
