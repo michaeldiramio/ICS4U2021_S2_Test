@@ -9,9 +9,13 @@ public class Main {
 
     // add animals here
     animals.add(new Dog());
+
     animals.add(new Cow());
 
     System.out.println("BLAH");
+
+    animals.add(new Worm());
+
 
     // print em all
    /* for(int i = 0; i < animals.size(); i++) {
