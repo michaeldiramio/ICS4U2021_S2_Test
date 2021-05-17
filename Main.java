@@ -1,11 +1,27 @@
+import java.util.ArrayList;
+
 public class Main {
   
   public static void main(String[] args) {
-    int i = 0;
-    while(true) {
-      i++;
-    System.out.println("Kaiden Gwynne " + i);
+
+    
+    ArrayList<Animal> animals = new ArrayList<>();
+
+    // add animals here
+    animals.add(new Dog());
+
+    System.out.println("BLAH");
+
+    // print em all
+   /* for(int i = 0; i < animals.size(); i++) {
+      animals.get(i).makeNoise();
+    }*/
+
+    for(Animal a : animals) {
+      a.makeNoise();
     }
+
+
   }
 
 }
